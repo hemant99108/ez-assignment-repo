@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "b3abd6f9-7d46-4426-bc21-f9689605fbb3",
+		"name": "testing-applications",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36598516"
+	},
+	"item": [
+		{
+			"name": "v-films-api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Test User\",\r\n  \"email\": \"test@example.com\",\r\n  \"phone\": \"1234567890\",\r\n  \"message\": \"Hello, testing the API\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

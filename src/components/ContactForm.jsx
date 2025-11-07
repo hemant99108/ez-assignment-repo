@@ -34,6 +34,7 @@ const  ContactForm=()=> {
         "https://vernanbackend.ezlab.in/api/contact-us/",
         form
       );
+      console.log(res);
       if (res.status === 200) {
         setStatus("Form Submitted");
         setForm({ name: "", email: "", phone: "", message: "" });
